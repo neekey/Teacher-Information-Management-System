@@ -1,0 +1,31 @@
+#main .content #setting {
+  padding: 5px;
+}
+#search_result {
+  margin-top: 20px;
+}
+#search_result h1 {
+  border-bottom: 1px #D5D5D5 solid;
+}
+#search_result h1 span.result_info {
+  font-size: 14px;
+  color: #67645B;
+  float: right;
+}
+#teacher_list {
+  margin-top: 20px;
+}
+#teacher_list li{
+  margin-bottom: 10px;
+}
+#teacher_list li .teacher_name {
+  font-size: 18px;
+  margin-right: 20px;
+}
+#teacher_list .teacher_brief {
+  margin-top: 10px;
+  padding:5px 0 5px 20px;
+  color: #67645B;
+  background: #FAFAFA;
+  text-indent: 2em;
+}

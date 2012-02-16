@@ -1,0 +1,24 @@
+/* [ie6] 文本输入表单样式 */
+.input_text, .input_password {
+	font-size: 18px;
+	border: 1px solid #D5D5D5; 
+	padding: 4px;
+	height: 20px;
+}
+/* [ie6] 按钮样式 */
+.input_button, .input_submit, .input_reset {
+	border-width: 1px;
+	border-color: #69645c;
+	border-style: solid;
+	display: inline-block;
+	height: 30px;
+	padding: 0px 3px 0 3px;
+	background: url('../../img/common/button1_bg.png');
+	color: #362e2b;
+	
+}
+.button2 {
+	border-color: #0f2541;
+	background: url('../../img/common/button2_bg.png');
+	color: white;
+}

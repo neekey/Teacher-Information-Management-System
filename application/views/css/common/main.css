@@ -1,0 +1,28 @@
+#main {
+  padding: 20px;
+}
+#main .header .title {
+  float: left;
+  padding: 5px 30px 5px 30px;
+  background: url('../../img/common/main_title_bg.png');
+  height: 16px;
+  color: white;
+  margin-right: 10px; 
+}
+.page_tip {
+  background: #fafafa;
+  padding: 5px;
+  width: 624px;
+  float: right;
+  color: #67645B;
+}
+#main .header {
+  width: 100%;
+  margin-bottom: 20px;
+}
+#main .content {
+  margin-top: 20px;
+  clear: both;
+}
+
+

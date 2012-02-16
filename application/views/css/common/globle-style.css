@@ -1,0 +1,130 @@
+/* @color #0f67a1 input[text] focus-border 
+ * @color #D5D5D5 input[text] border
+ * @color #69645c input[button1] border
+ */
+
+/* 清理浮动 */
+.clear { overflow: hidden;}
+ 
+/* 表单类元素全局样式 */
+input,select,textarea{
+	margin: 5px;
+}
+
+input[type=text], input[type=password] {
+  font-size: 18px;
+	border: 1px solid #D5D5D5; 
+	padding: 4px;
+	height: 20px;
+}
+input[type=text]:focus, input[type=password]:focus {
+	border: 2px #0f67a1 solid;
+	padding: 3px;
+}
+
+/* 菜单样式 */
+select {
+  font-size: 1em;
+  border: 1px solid #D5D5D5; 
+  padding: 4px;
+  height: 28px;
+  background: white;
+  border: 1px solid #D5D5D5;
+}
+/* 按钮样式 */
+input[type=button], input[type=submit], input[type=reset] {
+	border-width: 1px;
+	border-color: #69645c;
+	border-style: solid;
+	display: inline-block;
+	height: 30px;
+	padding: 0px 3px 0 3px;
+	background: url('../../img/common/button1_bg.png');
+	color: #362e2b;
+	
+}
+input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
+	background: url('../../img/common/button1_bg_hover.png');
+}
+
+input[type=button]:active, input[type=submit]:active, input[type=reset]:active {
+	background: url('../../img/common/button1_bg_click.png');
+}
+input[type=button].button2, input[type=submit].button2, input[type=reset].button2 {
+	border-color: #0f2541;
+	background: url('../../img/common/button2_bg.png');
+	color: white;
+}
+input[type=button].button2:hover, input[type=submit].button2:hover, input[type=reset].button2:hover {
+	background: url('../../img/common/button2_bg_hover.png');
+}
+/* 需要放在hover后面，否则无法启动active样式*/
+input[type=button].button2:active, input[type=submit].button2:active, input[type=reset].button2:active {
+	background: url('../../img/common/button2_bg_click.png');
+}
+
+/* 表单 label样式 */
+label {
+	font-size: 18px;
+}
+/* textarea */
+textarea {
+  display: block;
+  padding: 5px;
+}
+/* 链接样式 */
+a {
+  color: #0f67a1;
+}
+
+/* 灰框类容器 */
+.gray_container {
+  border: 1px solid #d5d5d5;
+  background-color: #fafafa;
+}
+
+.tip {
+  padding: 5px;
+}
+/* ajax_tip */
+.ajax_tip {
+  background-color: #FFF1A8;
+  position: fixed;
+  _position: absolute;
+  top: 0px;
+  _top: expression(document.documentElement.scrollTop + 'px');
+  bottom: auto;
+  left: 50%;
+  width: 200px;
+  color: #102540;
+  margin: auto auto auto -100px;
+  text-align: center;
+}
+.input_tip {
+  border-top: 1px solid #AE030B ;
+  border-bottom: 1px solid #AE030B;
+  background-color: #E5040F;
+  color: white;
+  /* background-image: url('../../img/common/tip_warnning.png'); */
+}
+
+/* paging */
+.paging {
+  margin: 5px;
+}
+.paging span a {
+  padding: 5px;
+}
+
+/* activation tip */
+#activation_tip {
+  padding: 10px;
+  height: 35px;
+  text-align: center;
+  width: 100%;
+  background-color: #102542;
+  color: white;
+}
+
+
+

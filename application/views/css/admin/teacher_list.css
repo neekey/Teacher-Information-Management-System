@@ -1,0 +1,123 @@
+
+/* @group main-category style 
+--------------------------------------------------------------------------------------------*/
+#main #category {
+  width: 220px;
+  float: left;
+}
+#main #category .category_title {
+  border-bottom: 1px #EDEDED solid;
+  margin: 10px 0 10px 0;
+  font-size: 18px;
+}
+#category_tru li, #category_title1 li, #category_title2 li {
+  _height: 1%; /* ie6 解决 li高度变高的情况 */
+}
+#category_tru li a, #category_title1 li a, #category_title2 li a {
+  display: block;
+  padding: 5px 5px 5px 20px;
+  border-bottom: 1px white solid;
+}
+#category_tru li a:hover, #category_title1 li a:hover, #category_title2 li a:hover {
+  background-color: #fafafa;
+  border-bottom: 1px #D5D5D5 solid;
+}
+#teacher_list {
+  float: right;
+  width: 520px;
+}
+#teacher_list .title {
+  padding: 5px;
+  background: url('../../img/common/main_title_bg.png');
+  height: 16px;
+  color: white;
+}
+#teacher_list .title .list_info {
+  float: right;
+  color: black;
+  width: 100px;
+}
+#teacher_list span {
+  display: inline-block;
+  /* ie6-7 修正文字上部 部分无法显示 */
+  *padding-top: 2px;
+}
+#teacher_list span.teacher_name {
+  width: 100px;
+  float: left;
+}
+#teacher_list span.teacher_sex {
+  width: 50px;
+  float: left;
+}
+#teacher_list span.teacher_tru {
+  float: left;
+}
+#teacher_list li {
+  border-bottom: 1px solid #dddddd;
+  background-image: url('../../img/teacher_list_bg.png');
+  /* ie6-7 列表修正-激发haslayout属性 */
+  *height: 1%;
+  /* ie6-7 列表修正列表间隙 */
+  *margin-bottom: -3px; 
+}
+#teacher_list li a  {
+  padding: 5px;
+  height: 18px;
+  display: block;
+}
+#teacher_list li a:hover {
+  background: #4282c0;
+  color: white;
+  text-decoration: none;
+}
+#teacher_list li a span {
+  /* ie6 */
+  cursor: pointer;
+}
+.paging {
+  float: right;
+}
+
+/* @group main-content-globle style 
+--------------------------------------------------------------------------------------------*/
+#main .content form {
+  margin-left: 40px;
+}
+#main .content label {
+  width: 72px;
+  display: inline-block;
+  text-align: right;
+  margin-right: 5px;
+}
+#main .content select {
+  margin-left: 1px; 
+}
+#main .content textarea {
+  width: 650px;
+  height: 300px;
+}
+
+/* @group main-content-other-info style 
+--------------------------------------------------------------------------------------------*/
+#other_info h1 {
+  border-bottom: 1px #EDEDED solid;
+  margin: 10px 0 10px 0;
+}
+#other_info li {
+  border-bottom: 1px #EDEDED dashed;
+}
+#project_container p, #paper_container p {
+  color: #69655C;
+}
+#project_container a, #paper_container a {
+  display: inline-block;
+  width: 640px;
+}
+
+
+/* @group main-content-login-info style 
+--------------------------------------------------------------------------------------------*/
+#login_info input[type=button] {
+  margin-left: 295px;
+}

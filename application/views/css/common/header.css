@@ -1,0 +1,32 @@
+.logo {
+  float: left;
+  margin-top: 20px;
+  background: url('../../img/common/site_logo.png');
+  width: 333px;
+  height: 62px;
+}
+.log_info {
+  float: right;
+  padding-top: 5px;
+  background: url('../../img/common/radius_left.png') no-repeat left bottom;
+  background-color: #102542;
+}
+.log_info span {
+  display: inline-block;
+  padding: 0 10px 5px 10px;
+  background: url('../../img/common/radius_right.png') no-repeat right bottom;
+}
+.log_info span a { color: white;}
+.nav {
+  width: 344px; /* ie6 */
+  float: right;
+  clear: right;
+  margin: 30px 35px 0 0;
+}
+.nav a {
+  padding-left: 5px;
+  border-left: white 1px solid;
+  color: white;
+  font-size: 18px;
+  
+}

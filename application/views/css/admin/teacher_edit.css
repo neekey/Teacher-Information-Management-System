@@ -1,0 +1,148 @@
+
+/* @group main-tab style 
+--------------------------------------------------------------------------------------------*/
+.tab {
+  border-bottom: 2px #4282C0 solid;
+  margin-bottom: 10px;
+  height: 25px;
+  _height: 26px; /* ie6 */
+}
+.tab li {
+  float: left;
+  margin-right: 5px;
+}
+.tab li a {
+  display: inline-block;
+  padding: 5px;
+  border: 1px solid #D5D5D5;
+  background: #FAFAFA;
+}
+.tab li a:hover, .tab li a.clicked_tab {
+  background: #4282C0;
+  border: 1px solid #4282C0;
+  color: white;
+}
+
+/* @group main-content-globle style 
+--------------------------------------------------------------------------------------------*/
+#main .content form {
+  margin-left: 40px;
+}
+#main .content label {
+  width: 72px;
+  display: inline-block;
+  text-align: right;
+  margin-right: 5px;
+}
+#main .content select {
+  margin-left: 1px; 
+}
+#main .content textarea {
+  width: 650px;
+  height: 300px;
+}
+
+/* @group main-content-other-info style 
+--------------------------------------------------------------------------------------------*/
+#other_info h1 {
+  border-bottom: 1px #EDEDED solid;
+  margin: 10px 0 10px 0;
+}
+#other_info li {
+  border-bottom: 1px #EDEDED dashed;
+}
+#project_container p, #paper_container p {
+  color: #69655C;
+}
+#project_container a, #paper_container a {
+  display: inline-block;
+  width: 640px;
+}
+
+
+/* @group main-content-login-info style 
+--------------------------------------------------------------------------------------------*/
+#login_info input[type=button] {
+  margin-left: 295px;
+}
+
+/* @group main-content-avator-info style 
+--------------------------------------------------------------------------------------------*/
+#avator {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  padding: 5px;
+  border: 2px white solid;
+}
+#avator a {
+  width: 200px;
+  display: none;
+  text-align: center;
+  position: absolute;
+  background-color: white;
+  padding: 5px 0;
+  left: 5px;
+  top: 90px;
+}
+/* 解决ie6 的hover问题, 此处用js添加hover时的样式 */
+#avator.avator_hover {
+  border: 2px #d5d5d5 solid;
+}
+
+#nyJS_overlay_container {
+  border:1px black solid;
+}
+#nyJS_overlay_container #img_upload{
+	position: relative;
+}
+#avator_upload_form {
+  width: 400px;
+  height: 50px;
+  position: absolute;
+  top:0;
+  *top: 50%;
+  bottom: 0;
+  left: 0;
+  *left: 50%;
+  right: 0px;
+  margin: auto;
+  *margin-left: -200px;
+  *margin-top: -25px;
+}
+#avator_upload_form .page_tip {
+  width: auto;
+}
+#avator_upload_close {
+  position: absolute;
+  width: 36px;
+  bottom: 20px;
+  right: 20px;
+}
+#crop_save {
+  position: absolute;
+  width: 36px;
+  bottom: 20px;
+  right: 80px;
+}
+#avator_crop {
+  padding: 10px;
+}
+#avator_crop .page_tip {
+  width: auto;
+  float: none;
+  margin-bottom: 10px;
+}
+#avator_temp {
+	width: 400px; height: 500px; overflow: hidden;
+}
+#preview {
+  padding: 5px;
+  border: 2px #d5d5d5 solid;
+  width: 200px; height: 200px; overflow: hidden; float: right
+}
+#img_upload {
+	width:700px; height:600px; background:white;
+}
+
+

@@ -1,0 +1,76 @@
+/* @group main-tab style 
+--------------------------------------------------------------------------------------------*/
+#main .content .tab {
+  border-bottom: 2px #4282C0 solid;
+  margin-bottom: 10px;
+  height: 25px;
+  _height: 26px; /* ie6 */
+}
+#main .content .tab li{
+  float: left;
+  margin-right: 5px;
+}
+#main .content .tab li a{
+  display: inline-block;
+  padding: 5px;
+  border: 1px solid #D5D5D5;
+  background: #FAFAFA;
+}
+#main .content .tab li a:hover, #main .content .tab li a.clicked_tab {
+  background: #4282C0;
+  border: 1px solid #4282C0;
+  color: white;
+}
+
+/* @group main-li input  style 
+--------------------------------------------------------------------------------------------*/
+#item_form h1 {
+  padding-left: 10px;
+}
+#tru_type_ul li, #titl1_type_ul li, #title1_level_ul li, #title2_ul li {
+  border-left: 4px white solid;
+}
+#tru_type > p, #title1_type > p, #title1_level > p, #title2_ul_container > p {
+  border-left: 4px white solid;
+}
+#tru_type_ul li:hover , #tru_type_ul li.choosed_tru_type, #titl1_type_ul li:hover , #title1_level_ul li:hover , #title2_ul li:hover  {
+  border-left: 4px #4282C0 solid;
+}
+#tru_type_ul input[type=text], #titl1_type_ul input[type=text], #title1_level_ul input[type=text], #title2_ul input[type=text], #item_form p input[type=text] {
+  width: 200px;
+}
+
+/* @group main-tru-type  style 
+--------------------------------------------------------------------------------------------*/
+#tru_type {
+  padding-top: 10px;
+  width: 300px;
+  float: left; 
+}
+
+#tru_place {
+  padding-top: 10px;
+  float: right;
+  width: 450px;
+}
+#tru_place p input[type=text], ul input[type=text] {
+  width: 376px;
+}
+#tru_place ul input[type=text] {
+  border-color: #fafafa;
+  background-color: #fafafa;
+}
+#tru_place ul input[type=text]:focus {
+  border: 2px #0f67a1 solid;
+  padding: 3px;
+  background-color: white;
+}
+#tru_place_ul .tip {
+  color: #67645B;
+  padding: 5px;
+}
+#title1_type, #title1_level {
+  padding-top: 10px;
+  float: left;
+  width: 300px;
+}

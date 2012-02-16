@@ -1,0 +1,28 @@
+body: {
+  text-align: center;
+}
+#base_container {
+  text-align: center; /* ie6 页面剧中 */
+  background: url("../../img/common/header_bg.png") repeat-x scroll 0 0 transparent;
+  background-color: #d5d5d5;
+}
+#header {
+  text-align: left;
+  height: 100px;
+  width: 800px;
+  margin: auto;
+}
+#main {
+  text-align: left;
+  width: 760px;
+  _width: 800px; /* ie6 */
+  margin: 10px auto 10px auto;
+  background-color: white; 
+  border: #B5B5B5 1px solid;
+}
+#footer {
+  text-align: center;
+  height: 100px;
+  background: #EDEDED;
+  border-top: white 5px solid;
+}
